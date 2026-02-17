@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Destructuring Objects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+
+    <div class="container-fluid">
+
+        <a class="navbar-brand" href="/src/features/Portada/index.html">Portada</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="/src/features/Crud/crud.html">Crud</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/src/features/Callback/Callback.html">Callback</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/src/features/Promise/promesas.html">Promise</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/src/features/AsyncAwait/Async.html">Async Await</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="/src/features/Destructuring/object.html">Object</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4"> Destructuring Objects</h2>
+
+    <div class="card p-4 shadow">
+        <p>
+            Extraer el nombre, la edad y la profesión usando Destructuring.
+        </p>
+
+        <button id="btnMostrar" class="btn btn-success">
+            Mostrar Datos
+        </button>
+
+        <div class="mt-3" id="resultado"></div>
+    </div>
+</div>
+
+<script src="object.js"></script>
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+></script>
+</body>
+</html>
