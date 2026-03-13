@@ -1,0 +1,29 @@
+/* Fondo principal */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url('../../Public/Images/fondo.jpg') no-repeat center center/cover;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* Capa oscura encima del fondo */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+/* Caja del contenido */
+.content-box {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 600px;
+}
